@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="https://diploma.jetcodex.xyz/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="title" content="Diploma in engineering result application" />
+    <meta charset="UTF-8"/>
+    <link rel="icon" href="https://diploma.jetcodex.xyz/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+    <meta name="title" content="Diploma in engineering result application"/>
     <meta name="description" content="Diploma in engineering result application. Find your result easily here.">
     <meta name="keywords" content="bteb, diploma, computer, technology, result, banladesh, engineering">
 
@@ -27,10 +27,22 @@
   <link rel="modulepreload" href="/assets/vendor.21fa432a.js">
   <link rel="stylesheet" href="/assets/index.c15f9caf.css">
 </head>
-<body class="bg-gray-200 print:bg-white">
-    <h1 class="hidden" hidden>Diploma in Engineering Result Application</h1>
-    <div id="app" class="min-h-screen flex flex-col"></div>
-    
+<body class="bg-gray-200 print:bg-white" style="overflow: hidden;">
+<h1 class="hidden" hidden>Diploma in Engineering Result Application</h1>
+<div id="app" class="min-h-screen flex flex-col"></div>
+<div id="loading-window"
+     style="position: absolute;top:0;right:0;bottom:0;left:0;display:flex;justify-content:center;align-items:center;z-index:200;background-color:white;font-size:2rem;">
+    <div>
+        Loading ...
+    </div>
+</div>
+<script type="text/javascript">
+    window.addEventListener('load', function () {
+        document.getElementById('loading-window').remove()
+        document.getElementsByTagName('body')[0].style.overflow = '';
+    });
+</script>
+
 
 <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
   <script nomodule src="/assets/polyfills-legacy.ef05669c.js"></script>
