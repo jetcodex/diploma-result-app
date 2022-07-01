@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://diploma.jetcodex.xyz/sitemap.xml
+Sitemap: https://result.dinajpurpoly.edu.bd/sitemap.xml
